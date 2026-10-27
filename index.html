@@ -1,0 +1,87 @@
+<!-- ResumePilot privacy policy. Paste into your hosted privacy page (same URL as the current Play listing), or host as-is. -->
+<div dir="ltr" style="font-family: Arial, sans-serif; color: #1f2937; font-size: 16px; line-height: 1.6; max-width: 760px;">
+
+<h1>Privacy Policy – ResumePilot: AI ATS Resume Builder</h1>
+<p><strong>Effective date:</strong> October 27, 2026</p>
+
+<p>This Privacy Policy explains how the ResumePilot Android app (package <code>com.pdf.cam.document.scanner</code>, formerly "Document Scanner") ("ResumePilot", "we", "us") handles your information. ResumePilot helps you create, import, score and export resumes. It is built <strong>local-first</strong>: there is no account, and your resumes are stored on your device.</p>
+
+<h2>1. Summary</h2>
+<ul>
+  <li>No sign-up and no account. We do not ask for your email address.</li>
+  <li>Your resumes, profile name, phone number and profile photo are stored only on your device.</li>
+  <li>When you use an <strong>AI feature</strong>, the resume content needed for that request is sent to our server, processed, and <strong>not stored</strong>. Your email address, phone number and photo are removed before sending.</li>
+  <li>The app shows ads through Google AdMob, which may collect device identifiers as described below.</li>
+  <li>You can delete everything at any time from <em>Profile → Delete all my data</em>, or by uninstalling the app.</li>
+</ul>
+
+<h2>2. Information stored on your device</h2>
+<p>The following stays in the app's private storage on your phone and is not sent to us:</p>
+<ul>
+  <li><strong>Resumes</strong> you create, import or scan (contact details, work history, education, skills and similar content you enter).</li>
+  <li><strong>Profile</strong>: the optional name and phone number you enter, used to pre-fill new resumes.</li>
+  <li><strong>Profile photo</strong>: if you add one, it is picked with the Android Photo Picker (the app does not get access to your whole gallery), resized, and saved inside the app. It is used only to draw photo templates in exported files.</li>
+  <li><strong>App settings</strong>: unlocked templates, a random app-generated device identifier, and your daily AI usage count.</li>
+</ul>
+<p>If Android backup is enabled on your device, this app data may be included in your Google account backup, which Google encrypts. You can turn backup off in Android settings.</p>
+
+<h2>3. Files, camera scanning and text recognition</h2>
+<ul>
+  <li><strong>Importing files</strong>: when you choose a PDF, Word document, image or text file with the system file picker, the app reads it on your device to extract the text. We do not get access to any other files.</li>
+  <li><strong>Scanning</strong>: scanning uses Google's ML Kit Document Scanner, provided through Google Play services. The camera screen is provided by Google; ResumePilot itself does not request camera permission.</li>
+  <li><strong>Text recognition (OCR)</strong> runs on your device with Google ML Kit. Google may collect limited usage and diagnostic information about ML Kit to improve its performance, as described in Google's ML Kit terms.</li>
+</ul>
+
+<h2>4. AI features and our server</h2>
+<p>AI features (ATS score, job match, skill gap, roast, rewrite/humanize, AI summary, AI bullets and AI-assisted import) can run with our cloud AI. When you start one of these features while online, the app sends:</p>
+<ul>
+  <li>The resume content needed for the task: name, headline, location, profile links, summary, experience, education, skills, projects, certifications and languages. <strong>Email address, phone number and photo are removed on your device before sending.</strong> For imported files, email addresses and phone numbers are masked in the text before it is sent.</li>
+  <li>The job title and job description you entered, if any.</li>
+  <li>The random app-generated device identifier, and your IP address (seen by the server as part of any internet connection).</li>
+</ul>
+<p><strong>How it is processed:</strong> requests go over an encrypted HTTPS connection to our backend on Amazon Web Services (AWS) in the US East (N. Virginia) region, which sends the text to Amazon Bedrock (Amazon Nova model) in the same region to generate the result. If you are outside the United States, this means the request is processed in the United States. Amazon does not use Bedrock inputs or outputs to train its models.</p>
+<p><strong>What we keep:</strong> we do <strong>not</strong> store or log your resume content, job descriptions, or AI results. To stop abuse and control costs, we keep a daily usage counter keyed by a one-way hash of the device identifier and of the IP address. These counters contain no resume content and are deleted automatically after about 48 hours. Basic technical logs (task type, success or failure, token counts) are kept for 7 days.</p>
+<p><strong>Reporting AI output:</strong> if you use <em>Report AI result</em>, the reported AI text (with email addresses and phone numbers masked), the reason you choose and any note you add are sent to us and kept for up to 90 days so we can review the report and improve our safety rules. Reports are linked only to a one-way hash of the app-generated device identifier.</p>
+<p><strong>Limits:</strong> cloud AI is limited to a small number of uses per device per day. Some uses can be unlocked by choosing to watch a rewarded ad. If you decline, are offline, or reach the limit, the app uses its on-device engine instead, and nothing is sent.</p>
+<p>AI output can be inaccurate. Please review every suggestion before you use it in a job application.</p>
+
+<h2>5. Advertising (Google AdMob)</h2>
+<p>ResumePilot is free and supported by ads from Google AdMob (banner, interstitial and optional rewarded ads). Google may collect and use:</p>
+<ul>
+  <li>The device's Advertising ID, IP address, device and app information, and ad interaction data;</li>
+  <li>to show ads (personalised or non-personalised depending on your choices), limit ad frequency, measure ads and prevent fraud.</li>
+</ul>
+<p>In the EEA, the UK and Switzerland, the app asks for your consent through Google's User Messaging Platform before ads are requested. You can change that choice at any time from <em>Profile → Ad privacy choices</em>. You can also reset or delete your Advertising ID in Android settings (<em>Settings → Privacy → Ads</em>).</p>
+<p>Rewarded ads are always optional. You choose to watch one in exchange for a clearly stated reward (unlocking a premium template, or one extra cloud AI use).</p>
+<p>Learn more: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>6. Permissions</h2>
+<ul>
+  <li><strong>Internet and network state</strong>: for AI features and ads, and to detect when the app is offline so it can use the on-device engine.</li>
+  <li>No camera, contacts, location, microphone or broad storage permissions are requested.</li>
+</ul>
+
+<h2>7. Sharing</h2>
+<p>We do not sell your personal information. We share data only with the service providers listed above (Amazon Web Services for AI processing, Google for ads and ML Kit), and when required by law. Files you export or share go only where you choose to send them.</p>
+
+<h2>8. Data retention and deletion</h2>
+<ul>
+  <li>On-device data stays until you delete it. Use <em>Profile → Delete all my data</em> to erase resumes, profile and photos, or uninstall the app.</li>
+  <li>Our server keeps no resume content. Hashed usage counters expire after about 48 hours, and technical logs after 7 days. We cannot link them to you, so there is nothing to look up. You can still contact us with any request.</li>
+</ul>
+
+<h2>9. Security</h2>
+<p>All traffic to our server uses HTTPS. The server checks requests, limits their size and rate, and does not write resume content to logs or storage. No method of transmission or storage is 100% secure, but we design the app to keep as little data as possible.</p>
+
+<h2>10. Children</h2>
+<p>ResumePilot is meant for job seekers and is not directed at children under 13 (or the minimum age of digital consent in your country). We do not knowingly collect personal information from children. If you believe a child has used the AI features, contact us and we will help.</p>
+
+<h2>11. Your rights</h2>
+<p>Depending on where you live (for example under the GDPR or India's Digital Personal Data Protection Act, 2023), you may have rights to access, correct, delete or object to the processing of your personal data. Because your resumes stay on your device, you can exercise most of these rights directly in the app. For anything else, contact us.</p>
+
+<h2>12. Changes to this policy</h2>
+<p>We may update this policy as the app changes. We will post the new version on this page and update the effective date above. Significant changes will also be shown in the app or in the Play Store release notes.</p>
+
+<h2>13. Contact</h2>
+<p>Questions or requests: <a href="mailto:imdevaraj444@gmail.com">imdevaraj444@gmail.com</a></p>
+</div>
